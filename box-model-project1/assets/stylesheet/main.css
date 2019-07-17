@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*main css*/
+
+h1{
+
+ font-size: 40px;
+ margin-top: 20px;
+ margin-left: 10px;
+}
+
+.firstbox{
+	height: 100px;
+	width: 150px;
+	border: 5px solid black;
+	background-color: maroon;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.secondbox{
+	height: 100px;
+	width: 150px;
+	border: 2px solid black;
+	background-color: maroon;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.thirdbox{
+	height: 100px;
+	width: 150px;
+	border: 4px dashed black;
+	background-color: maroon;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.fourthbox{
+	height: 100px;
+	width: 150px;
+	border: 4px dotted black;
+	background-color: maroon;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: inline-block;
+	
+}
+
+.fifthbox{
+	height: 100px;
+	width: 150px;
+	border: 2px black;
+	background-color: maroon;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.sixthbox{
+	height: 300px;
+	width: 300px;
+	background-color: red;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 20px;
+	outline: 15px solid purple;
+	border-top: 20px solid blue;
+	border-right: 20px solid gray;
+	border-bottom: 20px solid yellow;
+	border-left: 20px solid green;
+	padding: 30px;
+
+
+}
